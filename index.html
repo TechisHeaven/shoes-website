@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design </title>
+    <script src="https://kit.fontawesome.com/0002286476.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/images/image-logo.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <!-- header section here  -->
+    <header>
+        <div class="left-side">
+
+            <div class="hamburgur">
+
+                <button class="hamburger btn-background">
+                    <i class="menuIcon fa fa-solid fa-bars"></i>
+                    <p class="menu_txt">Menu</p>
+                    <i style="display: none" class="closeIcon fa fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+
+            <ul class="menu">
+                <li><a class="menuItem" href="/">Home</a></li>
+                <li><a class="menuItem" href="/">Profile</a></li>
+                <li><a class="menuItem" href="/">About</a></li>
+                <li><a class="menuItem" href="/">Contacts</a></li>
+            </ul>
+
+
+            <div class="search">
+                <i class="fa fa-strong fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="center">
+            <div class="logo" id="logo">
+                <a href="/"> <img src="/images/image-logo.png" alt="logo"></a>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="options-1">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa fa-light fa-cart-shopping"></i>
+                <p>2</p>
+            </div>
+            <div class="options-2">
+                <div class="lang-dropdown">
+                    <p>eng</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="lang-dropdown-content">
+                        <a href="/">English</a>
+                        <a href="/">Spanish</a>
+                        <a href="/">Italian</a>
+                        <a href="/">Russian</a>
+                    </div>
+                </div>
+                <div class="currency-dropdown">
+                    <p>usd</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="currency-dropdown-content">
+                        <a href="/">Us Dollar</a>
+                        <a href="/">Ruppee</a>
+                        <a href="/">Ruble</a>
+                        <a href="/">Euro</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <!-- header section here  -->
+    <!-- main section here  -->
+    <main>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <a href="/"> <img src="/images/banner-img-slider-.jpg" alt="banner-image-slider-1"
+                        style="width:100%"></a>
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <a href="/"><img src="/images/banner-image-slider-2.png" alt="banner-image-slider-2"
+                        style="width:100%"></a>
+                <div class="text">Caption Two</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <a href="/"><img src="/images/banner-img-slider-3.png" alt="banner-image-slider3"
+                        style="width:100%"></a>
+                <div class="text">Caption Three</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+
+
+
+        <!-- banner area ends -->
+        <div class="new-product-collection-title">
+            <p class="new-product-collections">Our<span> New product</span> </p>
+        </div>
+
+        <div class="collections product-gap">
+            <a href="/">
+                <div class="content-1 coll-products">
+                    <!-- sale-badge ---------->
+                    <span class="sale-badge">Sale</span>
+                    <!-- sale-badge ---------->
+                    <div class="nike-jordan-img product-imgs-center">
+                        <img src="/images/coll-nike-shoes-1.png" alt="nike-jordan">
+                    </div>
+                    <div class="product-desc">
+                        <p class="product-head">Nike air</p>
+                        <div class="product-price"> <span>$250</span>
+                            <p>$190.00</p>
+                        </div>
+                        <div class="color-center">
+                            <div class="product-color">
+
+                                <p>color</p>
+                                <div class="color">
+                                    <input type="checkbox" name="red" checked class="red" id="red">
+                                    <input type="checkbox" name="red" class="green" id="green">
+                                    <input type="checkbox" name="red" class="blue" id="blue">
+                                    <input type="checkbox" name="red" class="yellow" id="yellow">
+                                    <input type="checkbox" name="red" class="pink" id="pink">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/">
+                            <div class="addTocartbtn">
+                                <i class="fa fa-light fa-cart-plus"></i>
+                                <span>Add to cart</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/">
+                <div class="content-2 coll-products">
+                    <!-- sale-badge ---------->
+                    <span class="sale-badge">Sale</span>
+                    <!-- sale-badge ---------->
+                    <div class="nike-air-img">
+                        <img src="/images/coll-nike-shoe-2.png" alt="nike-air">
+                    </div>
+
+                    <p class="product-head">Nike air</p>
+                    <div class="product-price"> <span>$100</span>
+                        <p>$90.00</p>
+                    </div>
+                    <div class="color-center">
+                        <div class="product-color">
+
+                            <p>color</p>
+                            <div class="color">
+                                <input type="checkbox" name="red" checked class="red" id="red">
+                                <input type="checkbox" name="red" class="green" id="green">
+                                <input type="checkbox" name="red" class="blue" id="blue">
+                                <input type="checkbox" name="red" class="yellow" id="yellow">
+                                <input type="checkbox" name="red" class="pink" id="pink">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/">
+                        <div class="addTocartbtn">
+                            <i class="fa fa-light fa-cart-plus"></i>
+                            <span>Add to cart</span>
+                        </div>
+                    </a>
+                </div>
+            </a>
+
+
+            <a href="/">
+                <div class="content-3 coll-products">
+                    <!-- sale-badge ---------->
+                    <span class="sale-badge">Sale</span>
+                    <!-- sale-badge ---------->
+                    <div class="nike-running">
+                        <img src="/images/coll-nike-shoe-3.png" alt="nike-running">
+                    </div>
+
+                    <p class="product-head">Nike air</p>
+                    <div class="product-price"> <span>$300</span>
+                        <p>$260.00</p>
+                    </div>
+                    <div class="color-center">
+                        <div class="product-color">
+
+                            <p>color</p>
+                            <div class="color">
+                                <input type="checkbox" name="red" checked class="red" id="red">
+                                <input type="checkbox" name="red" class="green" id="green">
+                                <input type="checkbox" name="red" class="blue" id="blue">
+                                <input type="checkbox" name="red" class="yellow" id="yellow">
+                                <input type="checkbox" name="red" class="pink" id="pink">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/">
+                        <div class="addTocartbtn">
+                            <i class="fa fa-light fa-cart-plus"></i>
+                            <span>Add to cart</span>
+                        </div>
+                    </a>
+                </div>
+            </a>
+
+
+
+            <a href="/">
+                <div class="content-4 coll-products">
+                    <!-- sale-badge ---------->
+                    <span class="sale-badge">Sale</span>
+                    <!-- sale-badge ---------->
+                    <div class="nike-es">
+                        <img src="/images/coll-nike-shoe-4.png" alt="nike-es">
+                    </div>
+
+                    <p class="product-head">Nike air</p>
+                    <div class="product-price"> <span>$200</span>
+                        <p>$120.00</p>
+                    </div>
+                    <div class="color-center">
+                        <div class="product-color">
+
+                            <p>color</p>
+                            <div class="color">
+                                <input type="checkbox" name="red" checked class="red" id="red">
+                                <input type="checkbox" name="red" class="green" id="green">
+                                <input type="checkbox" name="red" class="blue" id="blue">
+                                <input type="checkbox" name="red" class="yellow" id="yellow">
+                                <input type="checkbox" name="red" class="pink" id="pink">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/">
+                        <div class="addTocartbtn">
+                            <i class="fa fa-light fa-cart-plus"></i>
+                            <span>Add to cart</span>
+                        </div>
+                    </a>
+                </div>
+            </a>
+        </div>
+
+
+
+        <p class="new-products-gallery-title">most loved products</p>
+
+        <div class="img-gallery-main">
+            <div class="new-products-gallery center-gallery">
+                <div class="images-1 center-gallery">
+                    <img src="/images/Hyperion-Elite-shoes.webp" alt="Hyperion-Elite-shoes">
+                </div>
+                <div class="images-2 center-gallery">
+                    <img src="/images/run-on-shoes.jpg" alt="run-on-shoes">
+                </div>
+            </div>
+        </div>
+        <p class="blog-title">brands</p>
+        <div class="brands">
+            <div class="brand-img">
+                <img src="/images/nike-brand.png" alt="nike-brand">
+                <img src="/images/adidas-brand.webp" alt="adidas-brand">
+                <img src="/images/bata-brand.png" alt="bata-brand">
+                <img src="/images/reebok-brand.png" alt="reebok-brand">
+                <img src="/images/puma-brand.webp" alt="puma-brand">
+                <img src="/images/nike-brand.png" alt="nike-brand">
+                <img src="/images/adidas-brand.webp" alt="adidas-brand">
+                <img src="/images/bata-brand.png" alt="bata-brand">
+                <img src="/images/reebok-brand.png" alt="reebok-brand">
+                <img src="/images/puma-brand.webp" alt="puma-brand">
+                <img src="/images/nike-brand.png" alt="nike-brand">
+                <img src="/images/adidas-brand.webp" alt="adidas-brand">
+                <img src="/images/bata-brand.png" alt="bata-brand">
+                <img src="/images/reebok-brand.png" alt="reebok-brand">
+                <img src="/images/puma-brand.webp" alt="puma-brand">
+            </div>
+
+        </div>
+
+
+
+        <p class="blog-title">blogs</p>
+        <div class="blogs grid-item main">
+            <div class="blog-content items" id="blog-content">
+                <a href="/">
+                    <div class="blog-1 item item1">
+                        <div class="blog-1-img blog-img-size">
+                            <img src="/images/shoes-blog-1.jfif" alt="shoes-blog-1">
+                        </div>
+                        <div class="blog-1-content blog-gap">
+                            <p class="sub-title">womens wear shoes</p>
+                            <h4>Gym wear shoes for womens</h4>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ea magnam, suscipit nemo ut
+                            laudantium
+                            quas sunt recusandae! Quae nihil ipsam repellat sint nostrum maxime vitae laboriosam
+                            voluptatem
+                            sequi porro? Nemo autem corrupti nisi blanditiis consequatur tempora. Unde, quo molestias?
+                        </div>
+                    </div>
+                </a>
+                <a href="/">
+                    <div class="blog-2 item item2">
+                        <div class="blog-2-img blog-img-size ">
+                            <img src="/images/shoes-blog-2.jpg" alt="shoes-blog-1">
+                        </div>
+                        <div class="blog-2-content blog-gap">
+                            <p class="sub-title">womens wear shoes</p>
+                            <h4>Party wear shoes for womens</h4>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ea magnam, suscipit nemo ut
+                            laudantium
+                            quas sunt recusandae! Quae nihil ipsam repellat sint nostrum maxime vitae laboriosam
+                            voluptatem
+                            sequi porro? Nemo autem corrupti nisi blanditiis consequatur tempora. Unde, quo molestias?
+                        </div>
+                    </div>
+                </a>
+                <a href="/">
+                    <div class="blog-3 item item3">
+                        <div class="blog-3-img blog-img-size">
+                            <img src="/images/shoes-blog-3.jpg" alt="shoes-blog-1">
+                        </div>
+                        <div class="blog-3-content blog-gap">
+                            <p class="sub-title">mens wear shoes</p>
+                            <h4>Top 5 types of shoes for mens</h4>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ea magnam, suscipit nemo ut
+                            laudantium
+                            quas sunt recusandae! Quae nihil ipsam repellat sint nostrum maxime vitae laboriosam
+                            voluptatem
+                            sequi porro? Nemo autem corrupti nisi blanditiis consequatur tempora. Unde, quo molestias?
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="showAllblogs">
+            <p> <a href="/"> View all blogs</a></p>
+        </div>
+
+
+
+
+
+
+    </main>
+    <!-- main section here  -->
+    <!-- footer section here  -->
+    <footer>
+        <div class="upper-footer">
+
+            <div class="footer-content-1">
+                <p> Shop </p>
+                <p> <a href="">Mens shop </a></p>
+                <p> <a href="">womens shop</a></p>
+                <p> <a href="">kids shop</a></p>
+                <p> <a href="">shoes sale</a></p>
+                <p> <a href="">branded shoes</a></p>
+                <p> <a href="">cheap shoes</a></p>
+            </div>
+            <div class="footer-content-1">
+                <p>Company</p>
+                <p> <a href="">Mens shop </a></p>
+                <p> <a href="">womens shop</a></p>
+                <p> <a href="">kids shop</a></p>
+                <p> <a href="">shoes sale</a></p>
+                <p> <a href="">branded shoes</a></p>
+                <p> <a href="">cheap shoes</a></p>
+            </div>
+            <div class="footer-content-1">
+                <p>More info</p>
+                <p> <a href="">Mens shop </a></p>
+                <p> <a href="">womens shop</a></p>
+                <p> <a href="">kids shop</a></p>
+                <p> <a href="">shoes sale</a></p>
+
+
+            </div>
+            <div class="footer-content-1">
+                <p>partners</p>
+                <p> <a href="">Mens shop </a></p>
+                <p> <a href="">womens shop</a></p>
+                <p> <a href="">kids shop</a></p>
+
+
+            </div>
+        </div>
+
+        <div class="lower-footer">
+            <div class="payment-partner-footer">
+                <p>payment partners</p>
+                <img src="/images/payment-1.webp" alt="">
+            </div>
+            <div class="social-platform-footer">
+                <p>follow us</p>
+                <div class="social-platform-footer-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="end-lower-footer">
+            <p><a href=""> More about our shoes</a></p>
+        </div>
+    </footer>
+    <!-- footer section here  -->
+
+</body>
+<script src="index.js"></script>
+
+</html>
